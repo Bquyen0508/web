@@ -1,0 +1,99 @@
+.main{
+  margin-top: 40px;
+  margin-right: 400px;
+  margin-left: 400px;
+  background-color: whitesmoke;
+}
+
+.part{
+    margin: 20px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lightgray;
+
+}
+
+.name p {
+    margin-right: 10px;
+}
+
+.dgen{
+    display: flex;
+    gap: 100px;
+}
+
+.date{
+    display: flex;
+    gap:60px;
+}
+
+.gender-container {
+    display: flex;
+}
+
+input[type="radio"] {
+    display: none;
+}/*disappear type radio circle*/
+
+/* input[type="date"]{
+    display: none;
+} */
+/* .date label{
+
+} */
+label {
+    display: block;
+    border: 1px solid lightgray;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;/*khi đặt vào ô chuột sẽ đổi thành hình bàn tay*/
+    text-align: center;
+    line-height: 40px;/*Căn nội dung ở giữa height*/
+
+}
+  
+input[type="radio"]:checked + label {
+    background-color: green;
+    color: white;
+}
+
+.pay{
+    display: flex;
+}
+
+.cvc{
+    display: flex;
+    align-items: center;/*các phần tử con sẽ được căn giữa theo chiều dọc bên trong một container*/
+    gap: 10px;
+}
+select {
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin-right: 5px;
+}
+.main h4{
+    color: green;
+}
+
+.custom{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px;
+    /*làm cho phần input bị mất border*/
+}
+
+.main i{
+    margin-left: 20px;
+    color: gray;
+}
+
+.pay label{
+    width: 245px;
+    height: 40px;
+}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise form 2</title>
+    <link rel="stylesheet" href="form2Style.css">
+    <script src="https://kit.fontawesome.com/e1aaf64c7e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="main">
+        <div class="part">
+        <h4>Account</h4>
+        <div class="name">
+            <p><i class="fa-solid fa-user"></i></p>
+            <form action="">
+                <input type="text" placeholder= "Full Name" size="15" required class="custom"/>
+            </form>
+        </div>
+        <br>
+        <div class="name">
+            <p><i class="fa-solid fa-envelope"></i></p>
+            <form action="">
+                <input type="email" placeholder= "Email Adress" size="15" required class="custom"/>
+            </form>
+
+        </div>
+        <br>
+        <div class="name">
+            <p><i class="fa-solid fa-key"></i></p>
+            <form action="">
+                <input type="password" placeholder= "Password" size="15" required class="custom"/>
+            </form>
+        </div>
+        <div class="dgen">
+            <h4>Date of Birth</h4>
+            <h4>Gender</h4>
+        </div>
+        <div class="date">
+            <form action="">
+                <input type="date" name="Startdate">
+            </form>
+            <div class="gender-container">
+                <div class="option">
+                  <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label>
+                </div>
+                <div class="option">
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label>
+                </div>
+            </div>
+        </div>
+        <h4>Payments Details</h4>
+        <div class="pay">
+            <div class="option">
+                <input type="radio" id="credit" name="payment" value="Credit card">
+                <label for="credit">
+                    <span id="creditcard">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    </span>
+                    Credit card
+                </label>
+            </div>
+            <div class="option">
+                <input type="radio" id="paypal" name="payment" value="paypal">
+                <label for="paypal">
+                    <span id="paypal">
+                        <i class="fa-brands fa-cc-paypal"></i>
+                    </span>
+                    Paypal
+                </label>
+            </div>
+        </div>
+        <br>
+        <div class="name">
+            <p><i class="fa-regular fa-address-card"></i></p>
+            <form action="">
+                <input type="text" placeholder= "Card Number" size="15" required class="custom" />
+            </form>
+        </div>
+        <br>
+        <div class="cvc">
+            <div class="name">
+                <p><i class="fa-solid fa-user"></i></p>
+                <form action="">
+                    <input type="text" placeholder= "Card CVC" size="15" required class="custom"/>
+                </form>
+            </div>
+            <div class="date-input">
+                <select id="date" name="day">
+                  <option value="">01 Jan</option>
+                  <option value="">02 Jan</option>
+                  <option value="">03 Feb</option> 
+                  <option value="">04 Aug</option>
+                  <option value="">04 Oct</option> 
+                  <option value="">10 Dec</option>   
+                </select>
+                <select id="date" name="year">
+                  <option value="">2015</option>
+                  <option value="">2016</option>
+                  <option value="">2017</option>
+                  <option value="">2018</option>
+                  <option value="">2019</option>
+                  <option value="">2020</option>
+                  <option value="">2023</option>
+                </select>
+              </div>
+        </div>
+    </div>
+   </div> 
+</body>
+</html>

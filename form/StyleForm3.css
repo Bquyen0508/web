@@ -1,0 +1,26 @@
+.main{
+  margin-top: 40px;
+  margin-right: 400px;
+  margin-left: 400px;
+  background-color: whitesmoke;
+}
+
+.part{
+   margin: 20px; 
+}
+.information{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.custom{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px;
+    /*làm cho phần input bị mất border*/
+}
+.icon{
+    
+}
