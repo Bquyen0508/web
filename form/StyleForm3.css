@@ -7,6 +7,16 @@
 
 .part{
    margin: 20px; 
+   font-family: verdana;
+}
+.part p{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.click{
+  display: flex;
+  justify-content: center;
 }
 .information{
     display: flex;
@@ -19,8 +29,40 @@
     outline: none;
     background: none;
     padding: 5px;
-    /*làm cho phần input bị mất border*/
 }
-.icon{
-    
+    /*làm cho phần input bị mất border*/
+
+i::before{
+  display: flex;
+  color: white;
+  height: 45px;
+  width: 50px;
+  background-color: darkblue;
+  justify-content: center;
+  align-items: center;
+}
+.custom{
+  margin-left: 5px;
+}
+.condition{
+  display: flex;
+}
+.condition div p{
+  display: block;
+}
+.register button{
+  color: white;
+  width: 70px;
+  height: 30px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+}
+.condition p{
+  font-size: 15px;
+}
+.register{
+  display: flex;
+  align-items: center;
+
 }
